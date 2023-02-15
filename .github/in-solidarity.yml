@@ -1,0 +1,23 @@
+rules:
+  master:
+    level: notice
+  slave:
+    level: notice
+  whitelist:
+    level: notice
+  blacklist:
+    level: notice
+  grandfathered:
+    level: notice
+  sanity_check:
+    level: off
+  man_hours:
+    level: off
+  segregation:
+    regex: 
+      - /segregation/gi
+    level: notice
+    alternatives: 
+      - separation
+ignore:
+ - ".github/in-solidarity.yml"
